@@ -22,25 +22,55 @@
 
         <div class="conteiner-content-fixed">
             <div class="conteiner-content-left">
-                <h1>Insira seus dados</h1>
+                <div class="img-content">
+                    <img src="addUser.png">
+                </div>
+                <h1 class="create-title">ABRA SUA CONTA</h1>
 
-                <form action="/login" method="post">
+                <div class="form-conteiner-style">
 
                     <div class="label-input">
-                        <span><img> </span> <input name="username" class="input-name">
+                        <div class="conteiner-img"><img src="user-icone.png"></div>
+                        <input name="username" class="input-name input-style" placeholder="Usuário">
                     </div>
 
                     <div class="label-input">
-                        <img src="user-icone.png">
-                        <input name="login" class="input-login">
+                        <div class="conteiner-img"><img src="email.png"></div>
+                        <input name="email" class="input-login input-style" placeholder="E-mail" type="email">
                     </div>
 
-                    <button class="btn-login">Ok</button>
-                </form>
+                    <div class="label-input">
+                        <div class="conteiner-img"><img src="chave.png"></div>
+                        <input name="login" class="input-login input-style" placeholder="Senha" type="password">
+                    </div>
+
+                    
+
+                    <button class="btn-create-style">Criar conta</button>
+                </div>
             </div>
 
             <div class="conteiner-content-right">
-                <h1>Login</h1>
+
+                <div class="img-content">
+                    <img src="user.png">
+                </div>
+                <h1 class="login-title">ACESSE SUA CONTA</h1>
+
+                <div class="form-conteiner-style">
+
+                    <div class="label-input">
+                        <div class="conteiner-img"><img src="user-icone.png"></div>
+                        <input name="username" class="input-name input-style" placeholder="Usuário">
+                    </div>
+
+                    <div class="label-input">
+                        <div class="conteiner-img"><img src="chave.png"></div>
+                        <input name="login" class="input-login input-style" placeholder="Senha" type="password">
+                    </div>
+
+                    <button class="btn-login-style">Entrar</button>
+                </div>
             </div>
         </div>
 

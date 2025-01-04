@@ -47,7 +47,7 @@ body
 
 .left-box-conteiner
 {
-    background-color: #FFD700;
+    background-color: skyblue;
     padding: 15px;
     text-align: justify;
     display: flex;
@@ -64,7 +64,7 @@ body
 
 .left-box-conteiner.active-singup
 {
-    background-color: skyblue;
+    background-color: #FFD700;
     transform: translateX(100%);
  
   
@@ -95,13 +95,13 @@ body
 
 .style-btn:hover
 {
-    background-color: skyblue;
+    background-color: #40E0D0;
     transition: 100ms;
 }
 
 .style-btn.active-singup:hover
 {
-    background-color: #FFD700;
+    background-color: #FFA500;
     transition: 100ms;
 }
 
@@ -125,6 +125,9 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    padding: 15px
 }
 
 .conteiner-content-right
@@ -134,9 +137,111 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .left-subtitle-box
 {
     font-size: 18px;
+}
+
+.label-input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEFF2;
+    padding: 4px;
+    gap: 10px;
+}
+
+.label-input:hover
+{
+    border: 1px solid black;
+}
+
+.conteiner-img
+{
+    width: 25px;
+    height: 25px;
+}
+
+.conteiner-img img
+{
+    width: 100%;
+    background-size: cover;
+}
+
+.input-style
+{
+    border: transparent;
+    background-color: #EBEFF2;
+    font-weight: bolder;
+    padding: 10px;
+    outline: none;
+}
+
+.form-conteiner-style
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.btn-login-style
+{
+    margin-top: 20px;
+    padding: 8px;
+    background-color: skyblue;
+    width: 127px;
+    color: black;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+
+.btn-create-style
+{
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #FFD700;
+    width: 127px;
+    color: black;
+    border-radius: 50px;
+    font-weight: bolder;  
+}
+
+.btn-login-style:hover
+{
+    background-color: cornflowerblue;
+}
+
+.btn-create-style:hover
+{
+    background-color: #FFA07A;
+}
+
+.img-content
+{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.img-content img
+{
+    width: 100%;
+}
+
+.login-title
+{
+    color: #ADD8E6;
+}
+
+.create-title
+{
+    color: #FFA500;
 }
