@@ -61,15 +61,15 @@
 
                     <div class="label-input">
                         <div class="conteiner-img"><img src="user-icone.png"></div>
-                        <input name="username" class="input-name input-style" placeholder="Usuário">
+                        <input name="username" class="input-name input-style" placeholder="Usuário" id="input-login">
                     </div>
 
                     <div class="label-input">
                         <div class="conteiner-img"><img src="chave.png"></div>
-                        <input name="login" class="input-login input-style" placeholder="Senha" type="password">
+                        <input name="login" class="input-login input-style" placeholder="Senha" type="password" id="input-senha">
                     </div>
 
-                    <button class="btn-login-style">Entrar</button>
+                    <button class="btn-login-style" id="login">Entrar</button>
                 </div>
             </div>
         </div>
@@ -77,6 +77,25 @@
     </div>
 
     <div class="bg-color">
+    </div>
+
+    <div class="pop-up-conteiner">
+        <div class="pop-up-content">
+
+            <div class="header-popup-style">
+                <div class="content-img-popup">
+                    <img src="notfound.png">
+                </div>
+            </div>
+
+            <div class="body-popup-style">
+                <h1 class="title-popup">USUÁRIO NÃO ENCONTRADO</h1>
+
+                <p class="text-popup">As credenciais fornecidas não estão registradas no nosso banco de dados. Verifique suas credenciais ou crie uma nova conta para acessar o databook.</p>
+
+                <button class="style-btn popup-btn" id="btn-close-popup">Fechar</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
