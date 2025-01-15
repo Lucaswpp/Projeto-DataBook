@@ -8,14 +8,22 @@
     font-family: Poppins;
 }
 
+body
+{
+    max-width: 100vw;
+    max-height: 200vh;
+    overflow: hidden;
+}
+
 .conteiner-head
 {
-    position: fixed;
+    
+    position: absolute;
     width: 280px;
-    height: 92vh;
+    height: 90vh;
     background-color: black;
     transform: translateX(-100%);
-    transition: all 1s ease;
+    transition: all 0.7s ease;
 }
 
 .conteiner-head.active
@@ -77,12 +85,13 @@
 
 .conteiner-pag-header
 {
+    position: block;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    width: 100%;
-    padding: 20px;
+    max-width: 100vw;
+    padding: 40px;
     height: 10vh;
 
 }
@@ -165,3 +174,130 @@
     background-color: skyblue;
 }
 
+.main-conteiner
+{
+    width: 100%;
+    display: flex;
+    background-color: #111111   ;
+    height: 200vh;
+    padding: 25px;
+    justify-content: center;
+
+}
+
+.conteiner-book
+{
+    display: flex; 
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+
+
+.conteiner-book
+{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+
+
+.card-book
+{
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.card-book:hover
+{
+    width: 225px;
+    height: 325px;
+    
+}
+
+.card-book .img-conteiner-link img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.layout-list-conteiner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.title-list-style
+{
+    margin-left: 60px;
+    font-size: 2.7em;
+    color: white;
+    font-weight: 900;
+    font-family: Helvetica, sans-serif
+}
+
+
+
+.list-book-conteiner
+{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.conteiner-menu
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img-controller
+{
+    width: 36px;
+    height: 36px;
+}
+
+.img-controller
+{
+    width: 100%;
+}
+
+.circle-btn-style
+{
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.circle-btn-style:hover
+{
+    background-color: skyblue;
+}
